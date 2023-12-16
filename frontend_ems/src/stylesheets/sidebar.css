@@ -1,0 +1,18 @@
+.side-container {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    text-align: left;
+    height: auto;
+}
+
+.side-container li {
+    list-style-type: none;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.side-container img {
+    width: 180px;
+    height: 80px;
+}

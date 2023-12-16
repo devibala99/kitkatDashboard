@@ -1,0 +1,73 @@
+.attendance {
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.attendance-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    gap: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#attendance-display {
+    padding: .5rem 1rem 0 1rem;
+    width: 96%;
+    margin-left: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.attendance-data {
+    padding: 0 1rem;
+
+}
+
+.attendance-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.display-att {
+    display: flex;
+    gap: 30px;
+    margin-top: 1rem;
+}
+
+.display-content-att,
+.display-content-view {
+    width: 350px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+#dc-img1 {
+    background-color: lemonchiffon;
+}
+
+#dc-img2 {
+    background-color: paleturquoise;
+}
+
+.display-content-att h3,
+.display-content-view h3 {
+    font-size: 1.3rem;
+}
+
+#dash-table-student {
+    padding: 1rem;
+}
+
+#studentTable {
+    height: 48vh;
+}

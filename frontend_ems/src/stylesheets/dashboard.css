@@ -1,0 +1,129 @@
+.dashboard {
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.dash-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 26.5px 15px;
+    font-size: 1.2rem;
+
+
+}
+
+.header .items span {
+    color: #fff;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.dashboard-display {
+    padding: .5rem 1rem 0 1rem;
+
+}
+
+.dashboard-data {
+    padding: .5rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dash-table {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.dash-table-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dash-table-containerFilter {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+    border-collapse: collapse;
+    border: .5px solid rgb(179, 178, 178);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e5e5e57e;
+}
+
+th {
+    background-color: #faa11bbc;
+}
+
+.student-table {
+    overflow-y: auto;
+    height: 60vh;
+
+}
+
+th {
+    color: #000000b5;
+}
+
+tr {
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+table {
+    overflow-y: scroll;
+}
+
+tr {
+    height: 40px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+/* :root * {
+    &::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(179, 179, 179, 0.686);
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    }
+
+    &::-webkit-scrollbar-thumb:window-inactive {
+        background: rgba(231, 0, 0, 0.4);
+    }
+} */

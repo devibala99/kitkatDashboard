@@ -1,0 +1,97 @@
+#add-content {
+    display: flex;
+    height: 50px;
+    background-color: transparent;
+    width: 250px;
+    box-shadow: none;
+}
+
+.add-attendance-display {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#dc-img-content {
+    padding: 0 1rem;
+}
+
+#dc-title-content h3 {
+    color: rgba(255, 166, 0, 0.884);
+}
+
+#dc-img-content svg {
+    font-size: 2rem;
+    color: orange;
+}
+
+.add-attendance-form {
+    padding-left: 1rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 0 1rem;
+    border-style: outset;
+}
+
+.form-list {
+    width: 100%;
+    height: 40px;
+    font-size: 1.1rem;
+    padding: .6rem 0;
+    display: flex;
+    font-weight: bold;
+}
+
+label {
+    padding-left: 1rem;
+    width: 30%;
+}
+
+select,
+option {
+    width: 70%;
+    margin-right: 1rem;
+}
+
+input,
+textarea {
+    width: 70%;
+    margin-right: 1rem;
+}
+
+.form-list-text {
+    height: 80px;
+}
+
+textarea {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.btn-cls {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#add-attendance-btn {
+    color: white;
+    border-radius: 25px;
+    height: 35px;
+    background-color: orange;
+    width: 90px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+#add-attendance-btn:hover {
+    background-color: rgb(92, 255, 47);
+}
